@@ -10,7 +10,29 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">My Homepage</a>
+      <div class="container">
+        <a class="navbar-brand" href="index.html">My Homepage</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="experience.html">Artifacts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resumes.html">Resumes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skills.html">Skills</a>
+                </li>
+            </ul>
+        </div>
+    </div>
     </nav>
   </header>
 
@@ -20,95 +42,11 @@
     <section>
       <h2>About Me</h2>
       <p>
-        My name is Nathan Allen. I'm a cybersecurity student at Old Dominion University and IT enthusiast. I have 3-4 years of programming and web development experience and have an interest in embedded systems/IoT development such as the Raspberry Pi and ESP32.
+        My name is Nathan Allen. I'm a cybersecurity student at Old Dominion University and IT enthusiast. I have 3 years of programming and web development experience and have an interest in embedded systems/IoT development such as the Raspberry Pi and ESP32.
       </p>
     </section>
 
-    <section>
-      <h2>Web Development Experience</h2>
-      <p>I have a lot of experience with HTML starting from a web development class I took in high school. I am proficient in Python and its web development frameworks such as Django and Flask.
-        I have some minimal experience with Javascript, such as have integrating javascript elements or features into Django apps. 
-        
-        When I worked at the ODU Computer Science Systems Group, a student-run IT group that supported the 
-        department's IT assets, I expanded my computing skills and was also given the chance to do some web development. I built the lobby display, hosted on a touchscreen display in Dragas and ECS. It 
-        is effectively a faculty directory that displays the professors, their contact info, picture, office, and faculty can login to customize their profiles. I do not have any experience with PHP.
-        Here are a couple of screenshots of web apps I have built.
-        </p>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card" style="width: 30rem;">
-                <div class="card-header">
-                  Lobby Display Screenshot
-                </div>
-                <a href="lobby_site1.png" target="_blank">
-                <img src="lobby_site1.png" class="card-img-top" alt="lobby_site_pic">
-                </a>
-                <div class="card-body">
-                  <h5 class="card-title">The CS Lobby Display</h5>
-                  <p class="card-text">This is the screenshot of the main Page of the CS Dept. Lobby Display I coded for Systems Group.</p>
-                </div>
-              </div>
-          </div>
 
-          <div class="col-md-6">
-            <div class="card" style="width: 30rem;">
-              <div class="card-header">
-                Consultant Scheduler
-              </div>
-              <a href="scheduler1.jpg" target="_blank">
-              <img src="scheduler1.jpg" class="card-img-top" alt="lobby_site_pic">
-              </a>
-              <div class="card-body">
-                <h5 class="card-title">Scheduler App</h5>
-                <p class="card-text">Image of the scheduling system I designed. It is used to track preferred work hours for employees.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr>      
-    </section>
-
-    <section>
-      <h2>My Links</h2>
-      <ul>
-        <h3>My Resume</h3>
-        <li>
-          <a href="https://docs.google.com/document/d/10WG9pNdBv4G45_elmsZ8p5eCnTFIhE5s/edit?usp=sharing&ouid=110628688404596800493&rtpof=true&sd=true">My Resume 2023</a>
-        </li>
-        <li>
-          <a href="https://jsfiddle.net/ntg272/7k503r1t/30/">JavaScript Example</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/na19/" target="_blank">LinkedIn</a> - My LinkedIn Profile
-        </li>
-      </ul>
-      <hr>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
-      <p>
-        <ul>
-          <li><b>Linux environments (Ubuntu Server, Debian):</b> Knowledgeable in *nix CLIs, package management, building from source, IPTables firewall, NFS, crontab, bash scripting, webservers, SSH Keys/SSL Encryption, and basic regular expressions.</li> 
-          <li><b>Databases:</b> MySQL, SQLite.</li> 
-          <li><b>DevOps:</b> Docker containers, and GitLab CI/CD Pipeline</li>
-          <li><b>Windows/Windows Server 2016-2019:</b> Experience in administering a Domain Controller, Active Directory, DNS, DHCP, and PowerShell. Package management with Chocolatey. Experience adding LDAP login capability to web app</li>
-          <li><b>Programming Languages:</b> Python 3, C++, Bash. Experience with HTML, Jinja2 Templates, and ORMs. Basic experience with SQL</li>
-          <li><b>Automation:</b> Experience in orchestration and automating tasks using Ansible. Deployment of websites using CI/CD pipelines and shell scripts over SSH</li>
-          <li><b>Virtualization:</b> Experience with oVirt engine, VirtualBox, and VMWare</li>
-          <li><b>Research:</b> Experience in web scraping and formatting/filtering data using Python</li>
-          <li><b>Networking:</b> Basic knowledge of IP addressing, OSI, TCP/IP models, and networking CLI programs</li>
-          <li><b>Monitoring:</b> </li>
-          <li><b>ELK Stacks:</b>  Elasticsearch, Logstash, Kibana</li>
-          <li><b>Data Shippers:</b> MQTT protocol, Heartbeat, Metricbeat, Filebeat</li>
-          <li><b>ThingsBoard IoT Dashboard</b></li>
-          <li><b>Version Control:</b> GitLab and GitHub</li>
-          <li><b>IDE/Text Editors:</b> Experience in Visual Studio & VS Code</li>
-        </ul>
-    <hr>
-    </section>
   </main>
 
   <div class="container">
@@ -117,6 +55,9 @@
         <h2>Contact Me</h2>
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="mailto:nh.allen272@gmail.com">nh.allen272@gmail.com</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/na19/" target="_blank">LinkedIn</a> - My LinkedIn Profile
+          </li>
         </ul>
         <p class="text-muted">By Nathan Allen</p>
       </div>

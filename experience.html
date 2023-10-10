@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to my Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">My Homepage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="experience.html">Artifacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resumes.html">Resumes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+          
+        </nav>
+      </header>
+
+  <main class="container mt-4">
+    <section>
+    <h3>Web Development Experience</h3>
+    <p>My experience in HTML dates back to my high-school years and I am also proficient in Python and the web development framework, Django.
+      
+      When I worked at the ODU Computer Science Systems Group, a student-run IT group that supported the 
+      department's IT assets, I expanded my computing skills and was also given the chance to do some web development. I coded two main websites, both using Django web development framework 
+      Here are a couple of screenshots of web apps I have built.
+      </p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card" style="width: 30rem;">
+              <div class="card-header">
+                Lobby Display Screenshot
+              </div>
+              <a href="lobby_site1.png" target="_blank">
+              <img src="lobby_site1.png" class="card-img-top" alt="lobby_site_pic">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">The CS Lobby Display</h5>
+                <p class="card-text">This is the screenshot of the main Page of the CS Department Lobby Display I coded for Systems Group. It is effectively a faculty directory that displays the professors, their contact info, picture, office, and faculty can login to customize their profiles. It is currently running on a touchscreen display in Dragas and ECS buildings at ODU.</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card" style="width: 30rem;">
+            <div class="card-header">
+              Consultant Scheduler
+            </div>
+            <a href="scheduler1.jpg" target="_blank">
+            <img src="scheduler1.jpg" class="card-img-top" alt="lobby_site_pic">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Scheduler App</h5>
+              <p class="card-text">This is the scheduling system I designed to be used internally by Systems Group to track preferred work hours for employees.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>      
+  </section>
+
+  <section>
+    <h3>Co-author of research paper</h3>
+    <p>In 2020, I was given the opportunity to co-author a paper during the height of the pandemic. My role in this was to code a Python script to periodically scrape video and save frames from a live webcam stream of a beach. The pictures and video were then analyzed using GIS software and open-source tools to measure the level of social distancing.</p>
+    <a href="https://doi.org/10.1016/j.ocecoaman.2021.105533">https://doi.org/10.1016/j.ocecoaman.2021.105533</a>
+</section>
+<hr>
+
+<section>
+    <h3>Raspberry Pi Oyster Float Project</h3>
+    <p>During my internship at VMASC, I worked on a project to embed a Raspberry Pi inside a FlipCage oyster cultivation system to capture live video from a camera and record data from an Inertial Motion Unit (IMU). The IMU measures four types of motion data: angular velocity vector/gyroscope, acceleration, magnetic field strength, and gravitational acceleration. The underwater camera is mounted inside the cage and provides a live video stream of the oysters via YouTube.
+        One of the major steps in this project was the design of a waterproof physical enclosure for the Raspberry Pi and the sensors. Since it wouldn't be possible to provide any wired power connection, we utilized batteries and solar panels to power the Pi. Using the CAD/3D modeling software, Fusion 360, we designed an enclosure that provides adequate protection from the environment and provides a way to mount the solar panels to power the system. The enclosure was 3D printed using ASA filament for increased resistance to sun damage. Since there was no clear way to mount the solar panels to the float, we designed parts that secured the panels to our enclosure in an innovative way.
+        The GitHub page for the project can be found here: <a href="https://github.com/JShull/VABlueTech_FlipCam/tree/main">VABlueTech_FlipCam</a> </p>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header">
+                    Oyster Float Enclosure Model
+                  </div>
+                  <div class="img-container">
+                    <a href="CentralContainerFull.jpg" target="_blank">
+                      <img src="CentralContainerFull.jpg" class="card-img-top" alt="enclosure1">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Enclosure 3D Design</h5>
+                    <p class="card-text">This is the screenshot of the 3D model of the enclosure for the Pi we developed in Fusion 360.</p>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header">
+                    Enclosure Interior
+                  </div>
+                  <div class="img-container">
+                    <a href="enclosure_close.jpg" target="_blank">
+                      <img src="enclosure_close.jpg" class="card-img-top" alt="enclosure_close">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Waterproof Enclosure Interior</h5>
+                    <p class="card-text">This is an image of the Raspberry Pi device along with its peripherals assembled inside the enclosure.</p>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header">
+                    Assembly With Oyster Float
+                  </div>
+                  <div class="img-container">
+                    <a href="half_assembled.jpg" target="_blank">
+                      <img src="half_assembled.jpg" class="card-img-top" alt="assembled1">
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Assembly With the FlipCage</h5>
+                    <p class="card-text">Here is the enclosure attached to the float as we began to assemble it.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+</section>
+<hr>
+
+
+<section>
+    <h3>What is Containerization? Research Paper</h3>
+    <p>In this paper, I researched what containerization is and how their security and performance compares to traditional forms of virtualization. An interdisciplinary research approach was used to combine the findings of computer science, cybersecurity, and digital forensics.  </p>
+    <a href="https://docs.google.com/document/d/193Xb75wut1UP6LljmM1E7mQzOtW06fdn/edit?usp=sharing&ouid=110628688404596800493&rtpof=true&sd=true">What is Containerization?</a>
+</section>
+
+<hr>
+<section>
+    <h3>ELK Stack Implementation</h3>
+    <p>One of my achievements during my time at Systems Group was implementing an ELK stack (Elasticsearch, Logstash, Kibana) cluster for the computer science department. The main funciton of this ELK stack was to track the uptime of 300+ lab machines owned by the department. 
+        To setup the ELK stack for uptime monitoring, I configured Heartbeat to send ICMP pings and created a dashboard on Kibana to view it. </p>
+        <div class="img-container">
+            <a href="ELK_stack.jpg" target="_blank">
+              <img src="ELK_stack.jpg" class="card-img-top" alt="assembled1">
+            </a>
+          </div>
+
+</section>
+
+<hr>
+
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>
